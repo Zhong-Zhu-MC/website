@@ -1,0 +1,5 @@
+baseURL = 'https://zhung-zhu.net/'
+languageCode = 'en-us'
+title = 'ZHONG ZHU'
+disableKinds = ['taxonomy', 'term']
+sectionPagesMenu = 'main'

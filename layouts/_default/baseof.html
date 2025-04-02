@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{{ .Page.Title }} - {{ .Site.Title }}</title>
+	<link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+	<header>
+	  <h1>ZHONG ZHU Survival</h1>
+	  <p class="subtitle">A true survival experience</p>
+	  <nav>
+		<ul>
+		  <a href="/">Home</a>
+		</ul>
+		{{ range .Site.Menus.main }}
+		<ul>
+		  <a href="/{{ .Identifier }}">{{ .Name }}</a>
+		</ul>
+		{{ end }}
+	  </nav>
+	</header>
+	<main>
+	  {{ block "main" . }}
+	  {{ end }}
+	</main>
+	<footer>
+	  Copyright &copy; 2025 &dash; The Zhong Zhu Team.
+	</footer>
+  </body>
+</html>

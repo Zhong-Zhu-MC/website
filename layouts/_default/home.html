@@ -1,0 +1,23 @@
+{{ define "main" }}
+<article id="main-content">
+  <header>
+	<h1>{{ .Title }}</h1>
+  </header>
+  {{ .Content }}
+</article>
+<!-- TODO: Factor the news thing out to a partial template -->
+<article>
+  <header>
+	<h1>Latest news</h1>
+  </header>
+  <ul>
+	{{ range (where .Site.Pages "Section" "news") }}
+	{{ range .Pages }}
+	<li>
+	  <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+	</li>
+	{{ end }}
+	{{ end }}
+  </ul>
+</article>
+{{ end }}
