@@ -35,6 +35,15 @@ main {
 	grid-template-columns: repeat(3, 1fr);
 }
 
+body.news main {
+	width: 90%;
+    max-width: 75rem;
+    border-radius: 1em;
+    background-color: var(--zz-main-background);
+    margin-bottom: 1rem;
+    display: block;
+}
+
 a {
 	color: var(--zz-link-color);
 }
@@ -46,7 +55,7 @@ body > header {
 
 	border-radius: 5px;
 	width: 90%;
-	max-width: 35rem;	
+	max-width: 35rem;
 }
 
 header .subtitle {

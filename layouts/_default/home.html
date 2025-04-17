@@ -12,7 +12,7 @@
   </header>
   <ul>
 	{{ range (where .Site.Pages "Section" "news") }}
-	{{ range .Pages }}
+	{{ range .RegularPages.ByDate.Reverse }}
 	<li>
 	  <a href="{{ .RelPermalink }}">{{ .Title }}</a>
 	</li>
