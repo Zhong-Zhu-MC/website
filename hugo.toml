@@ -3,3 +3,6 @@ languageCode = 'en-us'
 title = 'ZHONG ZHU'
 disableKinds = ['taxonomy', 'term']
 sectionPagesMenu = 'main'
+
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files
