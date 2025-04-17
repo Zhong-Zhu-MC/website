@@ -5,4 +5,8 @@ disableKinds = ['taxonomy', 'term']
 sectionPagesMenu = 'main'
 
 [markup.goldmark.renderer]
-  unsafe = true # Allow HTML in md files
+  unsafe = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
