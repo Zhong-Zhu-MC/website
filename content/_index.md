@@ -10,7 +10,7 @@ Are you sick and tired of all the non-vanilla and minigames servers? If yes, com
 
 # Join the server
 
-Server adress: `mc.zhong-zhu.net` (Java edition only for now)
+Server address: `mc.zhong-zhu.net` (Java edition only for now)
 
 # Join our Discord
 
