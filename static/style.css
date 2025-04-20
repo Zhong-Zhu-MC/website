@@ -35,6 +35,15 @@ main {
 	grid-template-columns: repeat(3, 1fr);
 }
 
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr; /* Switch to a single-column layout */
+    }
+    article#main-content {
+        grid-column: auto; /* Ensure it spans the full width */
+    }
+}
+
 body.news main {
 	width: 90%;
     max-width: 75rem;
