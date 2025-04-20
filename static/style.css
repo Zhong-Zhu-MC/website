@@ -44,6 +44,17 @@ body.news main {
     display: block;
 }
 
+body.gallery main {
+	width: 90%;
+    max-width: 75rem;
+    border-radius: 1em;
+    background-color: var(--zz-main-background);
+    margin-bottom: 1rem;
+    display: block;
+	text-align: center;
+	margin: auto;
+}
+
 a {
 	color: var(--zz-link-color);
 }
