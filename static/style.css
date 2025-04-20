@@ -37,10 +37,10 @@ main {
 
 @media (max-width: 768px) {
     main {
-        grid-template-columns: 1fr; /* Switch to a single-column layout */
+        grid-template-columns: 1fr;
     }
     article#main-content {
-        grid-column: auto; /* Ensure it spans the full width */
+        grid-column: auto;
     }
 }
 
