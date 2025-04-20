@@ -91,6 +91,11 @@ header h1 {
 	text-align: center;
 }
 
+h1 {
+	text-align: center;
+}
+
+
 header nav {
 	display: flex;
 	flex-direction: row;
