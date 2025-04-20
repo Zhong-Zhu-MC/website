@@ -78,6 +78,10 @@ body > header {
 	max-width: 35rem;
 }
 
+body > footer {
+	margin-top: 0.5rem;
+}
+
 header .subtitle {
 	text-align: center;
 	font-style: italic;
